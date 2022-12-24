@@ -1,0 +1,27 @@
+.products-list {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+    margin: 50px auto;
+}
+.products-list .box {
+    padding: 10px;
+    background-color: #f6f6f6;
+    width: 95%;
+    border-radius: 8px;
+    
+}
+.products-list .box img {
+    width: 100%;
+    max-height: 300px;
+}
+.products-list .box p {
+    line-height: 1.6;
+    color: #555;
+}
+.products-list .box span {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
